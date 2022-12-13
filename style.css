@@ -1,0 +1,62 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+  /*
+  igual a:
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 72px;
+  */
+
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+/* Altera o span que está dentro do h1 */
+h1 span {
+  font-weight: bold;
+}
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#footer .line {
+  margin: 250px auto 8px;
+  width: 568px;
+  height: 0px;
+  border: 1px #ECEFF2 solid;
+}
+
+#balls {
+  /* position= deixa o elemento fixo na fela, mesmo se movimentar ele continua no mesmo local. */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
